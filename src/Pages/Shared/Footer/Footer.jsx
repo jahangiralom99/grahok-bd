@@ -34,10 +34,14 @@ const Footer = () => {
         <p className="text-center mt-3 text-sm">
           {" "}
           ©2021-2024 Copyright Ionic Corporation
-              </p>
-              <div className="text-center mt-6">
-                  <img className="inline rounded-lg" src="https://i.ibb.co/Btvq9qf/Screenshot-2024-07-13-134201.png" alt="" />
-              </div>
+        </p>
+        <div className="text-center mt-6">
+          <img
+            className="inline rounded-lg"
+            src="https://i.ibb.co/Btvq9qf/Screenshot-2024-07-13-134201.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
