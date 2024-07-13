@@ -1,4 +1,5 @@
 import Marquee from "react-fast-marquee";
+import youtube from "../../assets/youtube.png";
 
 const PurchaseCourse = () => {
   const data = [
@@ -123,12 +124,294 @@ const PurchaseCourse = () => {
       {/* ------------------- */}
       <div className="mt-24 text-center">
         <img
-          className="inline"
+          className="inline md:w-[400px]"
           src="https://i.ibb.co/tYdh58S/Screenshot-2024-07-11-182630.png"
           alt=""
         />
-        <div>
-          <h1></h1>
+        <div className="max-w-screen-sm mx-auto border border-violet-600 h-44 -mt-24">
+          <h1 className="mt-32 text-2xl font-extrabold">
+            Ecommerce ওয়েবসাইট সলিউশন
+          </h1>
+        </div>
+        <div className="mt-8">
+          <h1 className="text-2xl font-extrabold">
+            একটি বিশাল ভ্যালুয়েবল বোনাস রিসোর্স
+          </h1>
+          <p className="mt-4 text-sm font-extrabold max-w-screen-md mx-auto">
+            একদম শূন্য থকে কোনো টেকনিক্যাল নলেজ ছাড়াই একটি ফুল ফাংশনাল{" "}
+            <span className="text-violet-600">ই-কমার্স ওয়েবসাইট</span> কিভাবে
+            ডিজাইন করবেন, <span className="text-violet-600">ওয়ার্ডপ্রেসে</span>{" "}
+            কিভাবে সব কিছু সেটাপ করবেন, কিভাবে{" "}
+            <span className="text-violet-600">বিজনেসকে অটোমেশন করবেন</span> সব
+            কিছুর ইনফরমেশন দিয়ে আমরা সাজিয়েছি{" "}
+            <span className="text-violet-600">৭ ঘন্টার</span> একটি ইনফরমেটিভ
+            কোর্স যেটি স্টেপ বাই স্টেপ ফলো করে আপনি রেডি করে ফেলতে পারবেন একটি{" "}
+            <span className="text-violet-600">
+              প্রফেশনাল ই-কমার্স ওয়েবসাইট
+            </span>{" "}
+            , নিচ থেকে ডিটেইলস দেখে নিন কি কি কভার করেছি আমরা এই ৭ ঘন্টার ফুল
+            কোর্সটিতে
+          </p>
+        </div>
+      </div>
+
+      {/* Curse module */}
+      <div className="mt-20 max-w-screen-md mx-auto">
+        <h1 className="text-center text-xl font-extrabold">কোর্স মডিউল</h1>
+        {/* curse 1 */}
+        <div className="space-y-2 shadow-2xl p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 2*/}
+        <div className="space-y-2 shadow-2xl rounded-lg  p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 3 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 4 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 5 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 6 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 7 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+        {/* curse 8 */}
+        <div className="space-y-2 shadow-2xl ounded-lg p-5 bg-slate-100 mt-6">
+          <h1 className="text-xl font-extrabold text-start">
+            <span className="text-red-500">ডেই ১ : </span> ডোমেইন এবং হোস্টিং
+            নিয়ে আইডিয়া পাবেন
+          </h1>
+          <div className="flex items-center gap-3 ">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">ডোমেইন নিয়ে আলোচনা</p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ১
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">
+              হোস্টিং নিয়ে আলোচনা পর্ব ২
+            </p>
+          </div>
+          <hr />
+          <div className="flex items-center gap-3">
+            <img className="w-8" src={youtube} alt="youtube" />
+            <p className="font-extrabold text-sm">হোস্টিং রিকমেন্ডেশন</p>
+          </div>
+        </div>
+          </div>
+           {/* btn */}
+      <div className="mt-12 text-center">
+        <button className="py-4 px-12 md:px-32 bg-red-500 text-white font-bold duration-500 hover:scale-110 rounded-xl">
+          সলিউশনটি নিতে চাই
+        </button>
+      </div>
+      {/* marque */}
+      <div className="mt-32">
+        <div className="bg-red-500 p-4 font-bold text-white">
+          <Marquee speed={120} pauseOnHover="true">
+            খুব দ্রুত অফারটি প্রাইস বৃদ্ধি করা হবে তাই প্রয়োজন হলে এখনই সংগ্রহ
+            করে ফেলুন
+          </Marquee>
         </div>
       </div>
     </div>
