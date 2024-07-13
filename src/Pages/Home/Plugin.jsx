@@ -151,22 +151,10 @@ const Plugin = () => {
             ল্যান্ডিং পেইজ কোর্স করেছেন?
           </p>
           <p className="border text-sm font-extrabold border-black p-3 md:w-96 rounded-xl mx-auto mt-4">
-            ভাবছেন এদের থেকে এই ল্যান্ডিং পেইজ সলিউশন নেয়া কি <span className="text-violet-700">প্রফিটেবল</span> হবে
-            কিনা!
+            ভাবছেন এদের থেকে এই ল্যান্ডিং পেইজ সলিউশন নেয়া কি{" "}
+            <span className="text-violet-700">প্রফিটেবল</span> হবে কিনা!
           </p>
-        </div>
-
-        {/* ------------------- */}
-        <div className="mt-24 text-center">
-          <img
-            className="inline"
-            src="https://i.ibb.co/tYdh58S/Screenshot-2024-07-11-182630.png"
-            alt=""
-          />
-          <div>
-            <h1></h1>
-          </div>
-        </div>
+        </div> 
       </div>
     </div>
   );
